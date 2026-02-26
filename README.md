@@ -2,7 +2,7 @@
 
 This package provides a Julia implementation of the linear B-spline estimator for univariate data proposed by Kirkby et al. ([2021](#kirkby2021galerkin)).
 
-The implementation is based on the MATLAB library [BSplineDensity](https://github.com/jkirkby3/BsplineDensity/), and is licensed under an MIT license as a result. Note that the implementation provided here only supports linear basis functions, and that the only option for selecting the bandwidth is least squares cross validation. For more options regarding bandwidth selection and B-spline orders, see the original MATLAB implementation linked above.
+The implementation is based on the original [BSplineDensity](https://github.com/jkirkby3/BsplineDensity/) library, and is licensed under an MIT license as a result. Note that the implementation provided here only supports linear basis functions, and that the only option for selecting the bandwidth is least squares cross validation. For more options regarding bandwidth selection and B-spline orders, see the original MATLAB implementation linked above.
 
 ## Installation
 This package is not in the Julia General Registry. Install it directly from GitHub:
