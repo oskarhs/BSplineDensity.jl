@@ -1,0 +1,17 @@
+name = "BSplineDensity"
+uuid = "fb30fcf7-a832-43e2-9ef5-f2c5104b7c77"
+version = "0.1.0"
+authors = ["Oskar Høgberg Simensen"]
+
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+StatsBase = "2913bbd2-ae8a-5f71-8c99-4fb6c76f3a91"
+
+[compat]
+julia = "1.10"
+Distributions = "0.25"
+Interpolations = "0.16"
+LinearAlgebra = "1.12"
+StatsBase = "0.34"
