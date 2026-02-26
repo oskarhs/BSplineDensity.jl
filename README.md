@@ -8,7 +8,7 @@ The implementation is based on the Matlab [BSplineDensity](https://github.com/jk
 This package is not in the Julia General Registry. Install it directly from GitHub:
 ```julia
 using Pkg
-Pkg.add(url = ...)
+Pkg.add(url = "https://github.com/oskarhs/BSplineDensity.jl")
 ```
 
 ## Basic usage
